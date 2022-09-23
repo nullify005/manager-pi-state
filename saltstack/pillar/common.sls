@@ -1,0 +1,7 @@
+ssh:
+    user: pi
+    public_key: AAAAB3NzaC1yc2EAAAADAQABAAABgQClDtDqr6ZXGqlzFJiPSvr7IghHWpsH++RSFlEG1VokP3Cq4SkGfCvtodjHvn0D6AVijTet2DbXNKNurlrMildHYk9raGAqn1GOs8e1spd9CcIzf5/XK35ajQeMZtrCIv6nKsmkdS5CCe9NKzv6w6Vg5lj278i7YRAVSAY11pJIDQYBF6K9MMn74K0fngQ4FVKiPo8e3s0ebdwe6meql4X+59qqZowkjH7GC9/+jP+sZzB1g2L5UwVX5zMPvADPN6CIPhEdOzY3IbcR8VrepFDgjTpohCJqHKMrk+b50ummqCt7WPH3kd3LyAH3fMPocX5WROPTjejM9V7UYjNp5G27jAnTQ63M8MEiDXd76N5U3XRtLalg9lG0Z4uFUR4l6Y55RoVbuGq0ZpEWdlNdDBH28cTYgkzZYCgG0MC4cQpLJT2M20ruWB5bQzop97PwJf6pgHOXmnbdS43/4IKra13FyZ20ynsxdEJyk71Y9slIBHOXtTYXEbGibWn08FYevPc= pi@pi
+k3s:
+    sha: 930b53d63d53638cc819f4cffd16e271e84df92b83854ff8b6c1814d054ec60f
+    release: https://github.com/k3s-io/k3s/releases/download/v1.25.0%2Bk3s1/k3s-armhf
+    master: https://kiwipi.lan:6443

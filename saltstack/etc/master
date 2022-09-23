@@ -1,0 +1,21 @@
+conf_file: /etc/salt/master
+color: True
+module_dirs:
+- /s/modules
+file_roots:
+    base:
+    - /s/salt
+fileserver_backend:
+- roots
+pillar_roots:
+    base:
+    - /s/pillar
+    - /.secrets
+pillar_raise_on_missing: true
+log_level: warning
+auto_accept: true
+roster_defaults:
+    sudo: true
+    priv: /root/.ssh/id_rsa
+    user: pi
+roster_file: /s/roster.sls
