@@ -30,3 +30,5 @@ resources:
     memory: 64Mi
   limits:
     memory: 64Mi
+podAnnotations:
+  prometheus.io/scrape: "false"

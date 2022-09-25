@@ -4,8 +4,6 @@ metadata:
   name: grafana-dashboard
   labels:
      grafana_dashboard: "1"
-  # annotations:
-  #   k8s-sidecar-target-directory: "/tmp/dashboards/Weather"
 data:
   observations.json: |-
-{{ .Files.Get "dashboards/observations.json" | indent 4 }}
+{{ .Files.Get "dashboards/EdgeRouter.json" | indent 4 }}

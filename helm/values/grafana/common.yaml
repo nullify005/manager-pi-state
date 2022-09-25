@@ -12,3 +12,8 @@ resources:
     memory: 256Mi
   limits:
     memory: 256Mi
+podAnnotations:
+  prometheus.io/scrape: "false"
+service:
+  annotations:
+    prometheus.io/scrape: "false"
