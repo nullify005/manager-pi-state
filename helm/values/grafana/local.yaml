@@ -3,6 +3,10 @@ ingress:
   - grafana.fuf.me
 grafana.ini:
   domain: grafana.fuf.me
+  auth.anonymous:
+    enabled: true
+    org_name: Main Org.
+    org_role: Editor
 datasources:
   datasources.yaml:
     apiVersion: 1

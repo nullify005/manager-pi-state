@@ -18,6 +18,7 @@ releases:
     createNamespace: true
     values:
     - ../helm/values/snmp/common.yaml
+    - ../helm/values/snmp/mibs.gotmpl
   - name: grafana-dashboard
     namespace: exporter-snmp-{{ .Environment.Name }}-v1
     chart: ../helm/charts/grafana-dashboard
